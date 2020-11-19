@@ -58,7 +58,7 @@ public class UnderTheSea extends Canvas {
 	 */
 	private void cierraAplicacion() {
 		String[] opciones = { "Aceptar", "Cancelar" };
-		int eleccion = JOptionPane.showOptionDialog(ventana, "�Desea cerrar la aplicaci�n?", "Salir de la aplicaci�n",
+		int eleccion = JOptionPane.showOptionDialog(ventana, "¿Desea cerrar la aplicación?", "Salir de la aplicación",
 				JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, opciones, "Aceptar");
 		if (eleccion == JOptionPane.YES_OPTION) {
 			System.exit(0);
